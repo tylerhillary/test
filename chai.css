@@ -1,0 +1,348 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.first{
+  background-color: rgb(12, 12, 43);
+  width: 100%;
+  height: 2rem;
+  
+}
+
+
+.first{
+  display: inline-block;
+}
+.number{
+float: right;
+color: white;
+
+}
+.icon{
+  float: left;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(IMG/pexels-ella-olsson-3026808.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-right: 8%;
+  box-sizing: border-box;
+ 
+  
+}
+
+.America{
+  padding-left: 40%;
+  padding-bottom: 0%;
+}
+
+
+.navbar{
+  height: 10%;
+  display: flex;
+  align-items:center;
+  background-color: rgb(22, 107, 107);
+  position: fixed;
+  width: 100%;
+}
+.logo{
+  width: 25px;
+  cursor: pointer;
+  margin-left: 3%;
+
+}
+nav{
+  flex: 1;
+  text-align: right;
+  padding-right: 70px;
+
+
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left:35px;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  /* transform: scaleY(3); */
+  transition: ease-in-out 0.5s;
+}
+
+nav #justhome li a { 
+list-style: none;
+display: inline-block;
+margin-left:35px;
+  color: white;
+
+
+
+}  
+
+nav #justhome li a :hover{  
+display: inline-block; 
+margin-left:35px;
+color: white;
+ 
+}
+
+nav ul li a{
+text-decoration: none;
+color: white;
+font-size: 13px;
+
+
+
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+/* margin-left:35px; */
+}
+
+
+h1{
+  color: #fff;
+  font-size:60px;
+  text-align: left;
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 3%;
+
+}
+
+h3{
+  color:#fff;
+  font-size:11px;
+  line-height: 15px;
+  margin-left: 3%;
+
+}
+
+button{
+ width: 180px;
+ color:#fff; 
+ font-size: 12px;
+ padding-left: 20px ;
+ padding-right: 20px;
+ background: #dc3f06;
+ border: 0;
+ border-radius: 0;
+ outline: none;
+ border-radius: 50px;
+ cursor: pointer;
+ margin-left:47%;
+ padding-top: 20px;
+ padding-bottom:20px ;
+}
+
+button:hover{
+background-color: rgb(16, 88, 64) ;
+transition: ease-in-out 0.5s;
+color: white;
+}
+.section{
+  background-color: #fff;
+  height: 50%;
+  margin-left: 20%;
+  margin-right: 8%;
+  border-radius: 0px 5px 0 0;    
+ 
+}
+
+
+.top-section{
+  background-color: white;
+  height: 30px;
+  margin-left: 20%;
+  margin-right: 60%;
+  
+  color: rgb(16, 88, 64);
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 5px 5px 0 0;
+  z-index: -5;  
+  
+ 
+}
+
+
+
+
+.section p{
+  display: inline-flex;
+  padding-top: 10px;
+  color: grey;
+ 
+}
+
+#one{
+  padding-left: 2.2%;
+ 
+}
+
+#two{
+  padding-left: 19%;
+
+}
+
+
+#three{
+  padding-left: 20%;
+}
+
+#four{
+  padding-left: 2.2%;
+ 
+}
+
+#five{
+  padding-left: 15%;
+
+}
+
+
+#six{
+  padding-left: 30%;
+}
+
+
+
+input{
+  outline: none;
+ line-height: 20px;
+ border: none;
+ border-radius: 5px;
+ padding: 5px;
+
+ box-shadow: 1px 2px 2px 2px rgb(214, 214, 214);
+
+}
+
+.section p{
+  padding-top: 50px;
+}
+
+
+.search{
+  margin-left: 75% ;
+  margin-top: -19%;
+  width: 120px;
+  color:#fff; 
+  font-size: 12px;
+  padding-right: 20px;
+  background: #dc3f06;
+  border: 0;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 50px;
+  padding-left: 20px;
+  box-shadow: 1px 2px 2px 2px rgb(214, 214, 214);
+}
+
+.search p{
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 40px;
+ 
+}
+
+.search:hover{
+  background-color:  rgb(16, 88, 64);
+  transition: ease-in-out 0.5s;
+  color: white;
+}
+
+/* STARTING MEDIA QUERY */
+/* LARGE SCREEN FOR LAPTOP */
+ @media only screen and (min-width: 1440px) {
+  .section{
+    background-color: #fff;
+    height: 50%;
+    float: right;
+    border-radius: 9px 9px 0 0;    
+    margin-top: 17%;
+    padding-right: 30%;
+    padding-left: 30px;
+    margin-right: 0;
+    
+   
+}
+
+
+
+.section p{
+  padding-top: 10px;
+  color: black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+ 
+}
+.one{
+ padding-left: 10px;
+ 
+}
+
+
+
+
+.America{
+padding-left: 50px;
+font-size: 50px;
+padding-top: 250px;
+position: absolute;
+margin-left: 100px;
+}
+
+button{
+position: absolute;
+margin-top: 37%;
+margin-left: 12%;
+
+}
+.search{
+position: absolute;
+margin-top: 60%;
+margin-left: 69%;
+}
+
+.space input{
+width: 27% ;
+position: absolute;
+margin-bottom: 20px;
+
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+
+
+}
+
+}
+
+
+
+/* FOR TABLET */
+@media only screen and (min-width: 600px) {
+
+}
+
+ 
