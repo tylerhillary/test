@@ -268,6 +268,7 @@ button{
   /* STARTING MEDIA QUERY */
   /* LARGE SCREEN FOR LAPTOP */
   @media only screen and (min-width: 1440px) { 
+    
     .section{
       background-color: #fff;
       height: 50%;
@@ -344,9 +345,87 @@ button{
 
   
   
-  /* FOR TABLET */
-  @media only screen and (min-width: 600px) {
-
-  }
-
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px){
+      
+      
+      .section{
+        background-color: #fff;
+        height: 50%;
+        float:right;
+        width: 35%;
+        border-radius: 9px 9px 0 0;    
+        margin-top: 17%;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: 13px;
+               
+       
+    }
     
+    .section p{
+      padding-top: 30px;
+      color: black;
+      padding-bottom: 10px;
+      
+      
+     
+    }
+    .one{
+     padding-left: 10px;
+     
+    }
+  
+    
+  
+   
+   .America{
+    padding-left: 30px;
+    font-size: 40px;
+    padding-top: 350px;
+    position: absolute;
+    margin-left: 10px;
+   }
+  
+   button{
+    position: absolute;
+    margin-top: 69%;
+    margin-left: 12%;
+    
+  }
+  .search{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 69%;
+  }
+  
+  .space input{
+    width: 27% ;
+    position: absolute;
+    margin-bottom: 20px;
+    
+    }
+  
+    nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+    
+    
+    }
+    nav ul li a:hover {
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+      font-weight: bold;
+      transform: scaleY(3); 
+       transition: ease-in-out 0.5s;
+   } 
+
+   .search{
+    margin-top: 105%;
+    margin-left: 60%;
+   }
+  
+      
+  }
