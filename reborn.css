@@ -434,13 +434,3 @@ nav ul li a:hover {
     
 }
 
-@media only screen and (min-width: 1024px){
-  .search{
-    margin-top: 75%;
-    margin-left: 64%;
-  }
-button{
-  margin-top: 55%;
-}
-
-}
