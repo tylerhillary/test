@@ -430,7 +430,27 @@ nav ul li a:hover {
   margin-top: 105%;
   margin-left: 60%;
  }
-
-    
 }
 
+@media (min-width: 1024px) and (max-width: 1024px){
+.search{
+  margin-top: 75%;
+  margin-left: 63%;
+}
+}
+
+@media only screen and (min-width: 2560px) {
+  .section{
+    margin-top: 10% ;
+  }
+
+  .search{
+    margin-top: 33%;
+    margin-left: 73%;
+  }
+  button{
+    margin-top: 26%;
+  }
+
+
+}
