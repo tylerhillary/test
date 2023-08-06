@@ -230,9 +230,7 @@ input{
 
 }
 
-/* .section p{
-  padding-top: 50px;
-} */
+
 
 
 .search{
@@ -268,13 +266,7 @@ input{
 /* STARTING MEDIA QUERY */
 /* LARGE SCREEN FOR LAPTOP */
 
-@media only screen and (min-width: 1024px) and (max-width: 1024px) {
-  .search{
-    margin-top: 50px;
-    position: absolute;
-    margin-left: 60%;
-  }
-}
+
 
 
 @media only screen and (min-width: 1440px) { 
@@ -440,4 +432,15 @@ nav ul li a:hover {
  }
 
     
+}
+
+@media only screen and (min-width: 1024px){
+  .search{
+    margin-top: 75%;
+    margin-left: 64%;
+  }
+button{
+  margin-top: 55%;
+}
+
 }
